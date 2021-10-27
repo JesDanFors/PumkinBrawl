@@ -6,7 +6,7 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
     public GameObject projectile;
-    public float launchVelocity = 700f;
+    private float launchVelocity = 700f;
     public string fire = "fire1P1";
 
     private void FixedUpdate()
@@ -15,7 +15,6 @@ public class Shooting : MonoBehaviour
         {
             GameObject ball = Instantiate(projectile, transform.position, transform.rotation);
             ball.GetComponent<Rigidbody2D>().AddRelativeForce(new Vector2(launchVelocity,0));
-            Debug.Log("im shooting");
         }
     }
 }

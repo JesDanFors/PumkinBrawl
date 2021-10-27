@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f837693-f7e2-4a77-8cfc-f172b2283339" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PumkinBrawl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PumkinBrawl/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/p_Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/p_Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shooting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shooting.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +15,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="205bi44jPAta7RIOT18geEA8JMC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -66,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635337537499</updated>
       <workItem from="1635337586271" duration="6860000" />
-      <workItem from="1635357950897" duration="1938000" />
+      <workItem from="1635357950897" duration="3613000" />
     </task>
     <servers />
   </component>
