@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6004208120357077134}
   m_Layer: 0
   m_Name: p_RFloor long
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 7410157171988934144}
   - component: {fileID: 7505464307969619940}
   - component: {fileID: 7616204642865632349}
-  - component: {fileID: 2056235047372569411}
+  - component: {fileID: 613231406420495745}
   m_Layer: 0
   m_Name: Floor Long
   m_TagString: Untagged
@@ -791,17 +791,29 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7624927920933374584}
   m_Mesh: {fileID: 0}
---- !u!64 &2056235047372569411
-MeshCollider:
+--- !u!61 &613231406420495745
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7624927920933374584}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -8.08467, y: -0.5538533}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 69.98647, y: 1.0646605}
+  m_EdgeRadius: 0
