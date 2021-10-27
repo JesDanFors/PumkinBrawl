@@ -166,7 +166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pos1: {fileID: 5860994743855455661}
   pos2: {fileID: 5860994744689351661}
-  speed: 2
+  speed: 5
   startPos: {fileID: 5860994743855455661}
 --- !u!1 &5860994745259705979
 GameObject:
