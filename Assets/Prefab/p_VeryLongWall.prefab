@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5497260017197051340}
   m_Layer: 0
   m_Name: p_VeryLongWall
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,8 +43,8 @@ GameObject:
   - component: {fileID: 8878618375857184110}
   - component: {fileID: 3699033534219440998}
   m_Layer: 0
-  m_Name: Square
-  m_TagString: Ground
+  m_Name: wall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
