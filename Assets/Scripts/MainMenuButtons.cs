@@ -19,7 +19,8 @@ public class MainMenuButtons : MonoBehaviour
 
     public void Start()
     {
-        fade.canvasRenderer.SetAlpha(0.0f);
+        fade.canvasRenderer.SetAlpha(1f);
+        fade.CrossFadeAlpha(0.0f, 2, false);
     }
 
     public void LoadScene1()
