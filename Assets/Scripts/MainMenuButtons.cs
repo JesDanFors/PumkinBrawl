@@ -9,6 +9,7 @@ public class MainMenuButtons : MonoBehaviour
 {
     public Image fade;
 
+    //Fade to black. Change second value for amount of seconds. 
     public void FadeOnButtonPress()
     {
 
@@ -32,6 +33,7 @@ public class MainMenuButtons : MonoBehaviour
         SceneManager.LoadScene("Level_2");
     }
 
+    //Waiting time until new scene loads. Change (value) for seconds. 
     public void startWaitLevel1()
     {
 
@@ -41,7 +43,7 @@ public class MainMenuButtons : MonoBehaviour
     IEnumerator WaitForLevel1()
     {
 
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(3);
         LoadScene1();
 
     }
@@ -54,7 +56,7 @@ public class MainMenuButtons : MonoBehaviour
     IEnumerator WaitForLevel2()
     {
 
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(3);
         LoadScene2();
 
     }
