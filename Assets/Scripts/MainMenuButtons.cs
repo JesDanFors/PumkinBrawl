@@ -12,12 +12,12 @@ public class MainMenuButtons : MonoBehaviour
     public void Start()
     {
         fade.canvasRenderer.SetAlpha(0.0f);
+        fade.CrossFadeAlpha(1, 3, false);
     }
 
     public void LoadScene1()
     {
 
-        new WaitForSeconds(3);
         SceneManager.LoadScene("Level_1");
     }
 
@@ -32,6 +32,33 @@ public class MainMenuButtons : MonoBehaviour
         fade.CrossFadeAlpha(1, 3, false);
 
     }
+
+    //public void startWaitLevel1()
+    //{
+
+    //    StartCoroutine(WaitForLevel1());
+    //}
+
+    //IEnumerator WaitForLevel1()
+    //{
+
+    //    yield return new WaitForSeconds(4);
+    //    LoadScene1();
+
+    //}
+
+    //public void startWaitLevel2()
+    //{
+    //    StartCoroutine(WaitForLevel2());
+    //}
+
+    //IEnumerator WaitForLevel2()
+    //{
+
+    //    yield return new WaitForSeconds(4);
+    //    LoadScene2();
+
+    //}
 }
 
 
