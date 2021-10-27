@@ -9,10 +9,18 @@ public class MainMenuButtons : MonoBehaviour
 {
     public Image fade;
 
+    //Fade to black. Change second value for amount of seconds. 
+    public void FadeOnButtonPress()
+    {
+
+        fade.CrossFadeAlpha(1, 3, false);
+
+    }
+
     public void Start()
     {
-        fade.canvasRenderer.SetAlpha(0.0f);
-        fade.CrossFadeAlpha(1, 3, false);
+        fade.canvasRenderer.SetAlpha(1f);
+        fade.CrossFadeAlpha(0.0f, 2, false);
     }
 
     public void LoadScene1()
@@ -26,39 +34,33 @@ public class MainMenuButtons : MonoBehaviour
         SceneManager.LoadScene("Level_2");
     }
 
-    public void FadeOnButtonPress()
+    //Waiting time until new scene loads. Change (value) for seconds. 
+    public void startWaitLevel1()
     {
 
-        fade.CrossFadeAlpha(1, 3, false);
+        StartCoroutine(WaitForLevel1());
+    }
+
+    IEnumerator WaitForLevel1()
+    {
+
+        yield return new WaitForSeconds(3);
+        LoadScene1();
 
     }
 
-    //public void startWaitLevel1()
-    //{
+    public void startWaitLevel2()
+    {
+        StartCoroutine(WaitForLevel2());
+    }
 
-    //    StartCoroutine(WaitForLevel1());
-    //}
+    IEnumerator WaitForLevel2()
+    {
 
-    //IEnumerator WaitForLevel1()
-    //{
+        yield return new WaitForSeconds(3);
+        LoadScene2();
 
-    //    yield return new WaitForSeconds(4);
-    //    LoadScene1();
-
-    //}
-
-    //public void startWaitLevel2()
-    //{
-    //    StartCoroutine(WaitForLevel2());
-    //}
-
-    //IEnumerator WaitForLevel2()
-    //{
-
-    //    yield return new WaitForSeconds(4);
-    //    LoadScene2();
-
-    //}
+    }
 }
 
 
