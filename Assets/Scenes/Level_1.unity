@@ -2100,14 +2100,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 228100289142987691, guid: b4978b19209cccb49b29a449031e1758, type: 3}
-      propertyPath: _health
-      value: 150
-      objectReference: {fileID: 0}
-    - target: {fileID: 228100289142987691, guid: b4978b19209cccb49b29a449031e1758, type: 3}
-      propertyPath: maxHealth
-      value: 150
-      objectReference: {fileID: 0}
-    - target: {fileID: 228100289142987691, guid: b4978b19209cccb49b29a449031e1758, type: 3}
       propertyPath: winnerScene
       value: WinSceneP2Lvl1
       objectReference: {fileID: 0}
@@ -2162,10 +2154,6 @@ PrefabInstance:
     - target: {fileID: 1118802566639964039, guid: b4978b19209cccb49b29a449031e1758, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1198336375799520462, guid: b4978b19209cccb49b29a449031e1758, type: 3}
-      propertyPath: shotsPerSecond
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4978b19209cccb49b29a449031e1758, type: 3}
@@ -2467,7 +2455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
