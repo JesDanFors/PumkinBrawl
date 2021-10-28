@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7766173696585168186}
   m_Layer: 0
   m_Name: JumpingPlatformEdge (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 6183357997184481561}
   m_Layer: 0
   m_Name: JumpingPlatformEdge
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -238,7 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8563602360286117282}
   m_Layer: 0
-  m_Name: p_GSJumping Platform 1
+  m_Name: p_SPlatform
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -252,7 +252,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8001396145231071150}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.82, y: -2.05, z: -12.82}
+  m_LocalPosition: {x: -9.82, y: -1.42, z: -12.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8630983353183792341}

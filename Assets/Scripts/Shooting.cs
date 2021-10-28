@@ -6,7 +6,7 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
     public GameObject projectile;
-    private float launchVelocity = 700f;
+    public float launchVelocity = 1000f;
     public string fire = "Fire1P1";
     private SpriteRenderer grx;
     
@@ -20,11 +20,12 @@ public class Shooting : MonoBehaviour
     private void FixedUpdate()
     {
         
-        if (Input.GetButton(fire))
+        if (Input.GetButtonDown(fire))
         {
             grx.enabled = true;
             GameObject ball = Instantiate(projectile, transform.position, transform.rotation);
             ball.GetComponent<Rigidbody2D>().AddRelativeForce(new Vector2(launchVelocity,0));
+            Destroy(ball,5);
         }
     }
 }
