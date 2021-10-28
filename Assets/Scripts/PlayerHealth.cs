@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 100;
     [SerializeField] string winnerScene;
 
-    private int _health;
+    public int _health;
 
     private void Start()
     {
