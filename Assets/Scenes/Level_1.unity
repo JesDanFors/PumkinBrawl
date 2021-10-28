@@ -1858,8 +1858,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 929, y: 471.6}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 954, y: 462.01}
+  m_SizeDelta: {x: 188.7678, y: 49.1786}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &767597230
 MonoBehaviour:
@@ -1882,8 +1882,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 505a860379707204ba00494cbf6cb558, type: 3}
-    m_FontSize: 25
+    m_Font: {fileID: 12800000, guid: 68ecbfe7c82bf3142b143cbf5c5fd790, type: 3}
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1937,8 +1937,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -914.5, y: 471.6}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -879, y: 465.33047}
+  m_SizeDelta: {x: 218.9333, y: 42.5391}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &775096987
 MonoBehaviour:
@@ -1961,8 +1961,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 505a860379707204ba00494cbf6cb558, type: 3}
-    m_FontSize: 25
+    m_Font: {fileID: 12800000, guid: 68ecbfe7c82bf3142b143cbf5c5fd790, type: 3}
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2100,6 +2100,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 228100289142987691, guid: b4978b19209cccb49b29a449031e1758, type: 3}
+      propertyPath: _health
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 228100289142987691, guid: b4978b19209cccb49b29a449031e1758, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 228100289142987691, guid: b4978b19209cccb49b29a449031e1758, type: 3}
       propertyPath: winnerScene
       value: WinSceneP2Lvl1
       objectReference: {fileID: 0}
@@ -2154,6 +2162,10 @@ PrefabInstance:
     - target: {fileID: 1118802566639964039, guid: b4978b19209cccb49b29a449031e1758, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198336375799520462, guid: b4978b19209cccb49b29a449031e1758, type: 3}
+      propertyPath: shotsPerSecond
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4978b19209cccb49b29a449031e1758, type: 3}
@@ -2455,7 +2467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
+  m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}

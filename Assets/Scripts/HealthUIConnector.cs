@@ -28,6 +28,7 @@ public class HealthUIConnector : MonoBehaviour
             }
             
         }
-        healtText.text = Convert.ToString(player1Health);
+        int currenthp = player1Health;
+        healtText.text = $"{currenthp}%";
     }
 }

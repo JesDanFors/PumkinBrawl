@@ -23,7 +23,6 @@ public class PlayerHealth : MonoBehaviour
             if (other.relativeVelocity.magnitude > 20)
             {
                 _health -= 3;
-                Debug.Log(_health);
             }
         }
         Death();
