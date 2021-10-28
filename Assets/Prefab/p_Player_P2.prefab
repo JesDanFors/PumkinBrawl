@@ -565,7 +565,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 58cc4dbf82131d341a035af0dc7ddd6e, type: 2}
+    - {fileID: 11400000, guid: c6ab7e6caf671ca41b1573748dbc2e39, type: 2}
 --- !u!50 &6614100909508200193
 Rigidbody2D:
   serializedVersion: 4
