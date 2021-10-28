@@ -7,7 +7,7 @@ public class Shooting : MonoBehaviour
 {
     public GameObject projectile;
     private float launchVelocity = 700f;
-    public string fire = "fire1P1";
+    public string fire = "Fire1P1";
 
     private void FixedUpdate()
     {
