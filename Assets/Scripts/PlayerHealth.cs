@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxHealth = 250;
+    public int maxHealth = 100;
     [SerializeField] string winnerScene;
 
     private int _health;
@@ -22,7 +22,7 @@ public class PlayerHealth : MonoBehaviour
         {
             if (other.relativeVelocity.magnitude > 20)
             {
-                _health -= 5;
+                _health -= 3;
                 Debug.Log(_health);
             }
         }
