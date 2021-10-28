@@ -7,23 +7,25 @@ public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 250;
 
-    private int health;
+    private int _health;
 
     private void Start()
     {
-        health = maxHealth;
+        _health = maxHealth;
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log(other.collider);
-        if (other.gameObject.CompareTag("Projectile"))
-        {
-            //if (other.relativeVelocity.magnitude != 0)
-            //{
-                health -= 20;
-                Debug.Log("ouch");
-            //}
-        }
+        
+            
+            if (other.gameObject.CompareTag("Projectile"))
+            {
+                if (other.relativeVelocity.magnitude > 2)
+                {
+                    _health -= 20;
+                    Debug.Log("ouch");
+                }
+            }
+        
     }
 }
