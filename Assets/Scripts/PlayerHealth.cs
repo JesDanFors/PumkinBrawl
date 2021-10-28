@@ -7,14 +7,13 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 250;
+    [SerializeField] string winnerScene;
 
     private int _health;
-    private Scene _current;
 
     private void Start()
     {
         _health = maxHealth;
-        _current = SceneManager.GetActiveScene();
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -35,7 +34,7 @@ public class PlayerHealth : MonoBehaviour
         if (_health <= 0)
         {
             Destroy(this);
-            SceneManager.LoadScene(_current.buildIndex);
+            SceneManager.LoadScene(winnerScene);
         }
     }
 }

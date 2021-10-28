@@ -275,6 +275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 250
+  winnerScene: WinSceneP2
 --- !u!1 &1579399051386132154
 GameObject:
   m_ObjectHideFlags: 0
