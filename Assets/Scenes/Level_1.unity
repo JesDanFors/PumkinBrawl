@@ -902,6 +902,10 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7921430107951187826, guid: a182bd294364a8d43bf5926db4170fe8, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7921430107951187826, guid: a182bd294364a8d43bf5926db4170fe8, type: 3}
       propertyPath: winnerScene
       value: WinSceneP1Lvl1
       objectReference: {fileID: 0}
@@ -2101,7 +2105,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 228100289142987691, guid: b4978b19209cccb49b29a449031e1758, type: 3}
       propertyPath: _health
-      value: 150
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 228100289142987691, guid: b4978b19209cccb49b29a449031e1758, type: 3}
       propertyPath: maxHealth
