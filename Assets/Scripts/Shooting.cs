@@ -9,7 +9,7 @@ public class Shooting : MonoBehaviour
     public float launchVelocity = 1000f;
     public string fire = "Fire1P1";
     private SpriteRenderer grx;
-    private float shotsPerSecond = 5.0f;
+    public float shotsPerSecond = 5.0f;
     private bool shot = false;
     
 
