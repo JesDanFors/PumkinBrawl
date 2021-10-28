@@ -2544,7 +2544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6004208120357077134}
   m_Layer: 0
-  m_Name: p_RFloor long
+  m_Name: p_LPlatform
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
