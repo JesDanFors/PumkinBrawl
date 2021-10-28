@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 3522770935295840292}
+  launchVelocity: -1000
   fire: Fire1P2
 --- !u!1 &4676257704260250284
 GameObject:
