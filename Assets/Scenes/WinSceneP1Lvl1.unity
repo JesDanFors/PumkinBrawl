@@ -322,6 +322,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3570150200051653766, guid: c0d4cca6520bca14899daf68be25a7f5, type: 3}
+      propertyPath: m_Text
+      value: Play Level 1 Again
+      objectReference: {fileID: 0}
     - target: {fileID: 3570150200351919363, guid: c0d4cca6520bca14899daf68be25a7f5, type: 3}
       propertyPath: m_Name
       value: Canvas
