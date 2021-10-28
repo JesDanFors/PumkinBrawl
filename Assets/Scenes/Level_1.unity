@@ -384,6 +384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: p_Player_P2
       objectReference: {fileID: 0}
+    - target: {fileID: 7921430107951187826, guid: a182bd294364a8d43bf5926db4170fe8, type: 3}
+      propertyPath: winnerScene
+      value: WinSceneP1Lvl1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a182bd294364a8d43bf5926db4170fe8, type: 3}
 --- !u!43 &345108628
@@ -1203,6 +1207,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 228100289142987691, guid: b4978b19209cccb49b29a449031e1758, type: 3}
+      propertyPath: winnerScene
+      value: WinSceneP2Lvl1
+      objectReference: {fileID: 0}
     - target: {fileID: 361547874372755879, guid: b4978b19209cccb49b29a449031e1758, type: 3}
       propertyPath: m_Name
       value: p_Player_P1
