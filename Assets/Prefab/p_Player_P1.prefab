@@ -95,7 +95,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 613277066569756475}
+  launchVelocity: 1000
   fire: Fire1P1
+  shotsPerSecond: 5
 --- !u!1 &613277066569756475
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,8 +276,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28408f4e9ad6a63498c13ccfe18ad838, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 250
+  maxHealth: 100
   winnerScene: WinSceneP2
+  _health: 0
 --- !u!1 &1579399051386132154
 GameObject:
   m_ObjectHideFlags: 0
