@@ -200,6 +200,7 @@ MonoBehaviour:
   projectile: {fileID: 3522770935295840292}
   launchVelocity: -1000
   fire: Fire1P2
+  shotsPerSecond: 12
 --- !u!1 &4676257704260250284
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,6 +330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 250
   winnerScene: WinSceneP1
+  _health: 0
 --- !u!1 &5414838899513945166
 GameObject:
   m_ObjectHideFlags: 0

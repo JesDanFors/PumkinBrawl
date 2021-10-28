@@ -7,39 +7,27 @@ using UnityEngine.UI;
 public class HealthUIConnector : MonoBehaviour
 {
 
-    public Canvas hpCanvas;
+    public Text healtText;
     
     private int player1Health;
-    private int player2Health;
+    private PlayerHealth[] players;
+    public string player = "p_Player_P1";
     private void Start()
     {
-        PlayerHealth[] players = FindObjectsOfType<PlayerHealth>();
-        foreach (var VARIABLE in players)
-        {
-            if (VARIABLE.gameObject.name == "p_Player_P1")
-            {
-                player1Health = VARIABLE._health;
-            }
-
-            if (VARIABLE.gameObject.name == "p_Player_P2")
-            {
-                player2Health = VARIABLE._health;
-            }
-        }
+        players = FindObjectsOfType<PlayerHealth>();
     }
 
     private void Update()
     {
-        if (hpCanvas.GetComponentInChildren<Text>().name == "Player1")
-        {
-            string text = Convert.ToString(player1Health);
-        }
-
-        if (hpCanvas.GetComponentInChildren<Text>().name == "Player2")
-        {
-            string text = Convert.ToString(player2Health);
-        }
-            
         
+        foreach (var VARIABLE in players)
+        {
+            if (VARIABLE.gameObject.name == player)
+            {
+                player1Health = VARIABLE._health;
+            }
+            
+        }
+        healtText.text = Convert.ToString(player1Health);
     }
 }
