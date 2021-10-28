@@ -23,7 +23,6 @@ public class PlayerHealth : MonoBehaviour
                 if (other.relativeVelocity.magnitude > 2)
                 {
                     _health -= 20;
-                    Debug.Log("ouch");
                 }
             }
         
