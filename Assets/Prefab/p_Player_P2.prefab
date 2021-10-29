@@ -328,9 +328,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28408f4e9ad6a63498c13ccfe18ad838, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 250
+  maxHealth: 100
   winnerScene: WinSceneP1
-  _health: 0
+  _health: 100
 --- !u!1 &5414838899513945166
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,6 +340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4731013454421885550}
+  - component: {fileID: 8197928627294410099}
   m_Layer: 0
   m_Name: p_Player_P2
   m_TagString: Untagged
@@ -365,6 +366,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8197928627294410099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5414838899513945166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6edd3b8789c58534d8d47f473cfb6068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healtText: {fileID: 0}
+  player: Whole collider
 --- !u!1 &6126586407649840270
 GameObject:
   m_ObjectHideFlags: 0
