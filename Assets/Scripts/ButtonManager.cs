@@ -34,4 +34,32 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
 
     }
+
+    public void startWait1Second()
+    {
+        StartCoroutine(wait1Second());
+
+    }
+
+    IEnumerator wait1Second()
+    {
+
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("Level_1");
+
+    }
+
+    public void startMenuWait1Second()
+    {
+        StartCoroutine(waitMenu1Second());
+
+    }
+
+    IEnumerator waitMenu1Second()
+    {
+
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("MainMenu");
+
+    }
 }

@@ -353,7 +353,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1672972340}
         m_TargetAssemblyTypeName: ButtonManagerLvl2, Assembly-CSharp
-        m_MethodName: gotoMainMenu
+        m_MethodName: startMenuWait1Second
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1238,7 +1238,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1672972340}
         m_TargetAssemblyTypeName: ButtonManagerLvl2, Assembly-CSharp
-        m_MethodName: PlayAgainLevel2
+        m_MethodName: startWait1Second
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

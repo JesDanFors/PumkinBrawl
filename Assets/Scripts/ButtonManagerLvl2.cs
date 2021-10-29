@@ -21,16 +21,30 @@ public class ButtonManagerLvl2 : MonoBehaviour
 
     }
 
-    public void PlayAgainLevel2()
+    public void startWait1Second()
+    {
+        StartCoroutine(wait1Second());
+
+    }
+
+    IEnumerator wait1Second()
     {
 
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene("Level_2");
 
     }
 
-    public void gotoMainMenu()
+    public void startMenuWait1Second()
+    {
+        StartCoroutine(waitMenu1Second());
+
+    }
+
+    IEnumerator waitMenu1Second()
     {
 
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene("MainMenu");
 
     }
