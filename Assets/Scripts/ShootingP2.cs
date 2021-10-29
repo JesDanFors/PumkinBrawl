@@ -11,6 +11,7 @@ public class ShootingP2 : MonoBehaviour
     private SpriteRenderer grx;
     public float shotsPerSecond = 5.0f;
     private bool shot = false;
+    public AudioSource audioSrc;
     
 
     private void Start()
@@ -38,7 +39,11 @@ public class ShootingP2 : MonoBehaviour
         if (Input.GetButton(fire))
         {
             shot = true;
-            SoundControlP1.SndMan.PlayShootSound();
+            SoundControlP2.SndMan.PlayShootSound();
+        }
+        else
+        {
+            audioSrc.clip = null; 
         }
     }
 }
