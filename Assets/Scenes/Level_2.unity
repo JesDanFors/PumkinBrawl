@@ -15492,7 +15492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 228100289142987691, guid: b4978b19209cccb49b29a449031e1758, type: 3}
       propertyPath: winnerScene
-      value: WinSceneP2Lvl1
+      value: WinSceneP2Lvl2
       objectReference: {fileID: 0}
     - target: {fileID: 361547874372755879, guid: b4978b19209cccb49b29a449031e1758, type: 3}
       propertyPath: m_Name
@@ -23618,7 +23618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7921430107951187826, guid: a182bd294364a8d43bf5926db4170fe8, type: 3}
       propertyPath: winnerScene
-      value: WinSceneP1Lvl1
+      value: WinSceneP1Lvl2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8197928627294410099, guid: a182bd294364a8d43bf5926db4170fe8, type: 3}
