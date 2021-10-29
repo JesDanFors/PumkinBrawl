@@ -61,6 +61,20 @@ public class MainMenuButtons : MonoBehaviour
         LoadScene2();
 
     }
+
+    public void startWaitCredits()
+    {
+
+        StartCoroutine(WaitForCredits());
+    }
+
+    IEnumerator WaitForCredits()
+    {
+
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("Credits");
+
+    }
 }
 
 
