@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1118802566639964039}
   - component: {fileID: -9009938619274350775}
+  - component: {fileID: 6760756758706819822}
   m_Layer: 0
   m_Name: p_Player_P1
   m_TagString: Untagged
@@ -50,6 +51,20 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &6760756758706819822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361547874372755879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6edd3b8789c58534d8d47f473cfb6068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healtText: {fileID: 0}
+  player: Whole colliderP1
 --- !u!1 &490040120266185341
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,7 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28408f4e9ad6a63498c13ccfe18ad838, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 250
+  maxHealth: 100
   winnerScene: WinSceneP2
   _health: 100
 --- !u!1 &1579399051386132154
