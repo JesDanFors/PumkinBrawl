@@ -29,6 +29,6 @@ public class HealthUIConnector : MonoBehaviour
             
         }
         int currenthp = player1Health;
-        healtText.text = $"{currenthp}%";
+        healtText.text = $"Health: " + currenthp + "%";
     }
 }

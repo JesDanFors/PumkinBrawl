@@ -20,9 +20,9 @@ public class PlayerHealth : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Projectile"))
         {
-            if (other.relativeVelocity.magnitude > 20)
+            if (other.relativeVelocity.magnitude > 30)
             {
-                _health -= 3;
+                _health -= 5;
             }
         }
         Death();
