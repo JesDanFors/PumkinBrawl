@@ -2303,11 +2303,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 125728439245664457, guid: c80fe13599bc765409ce1a0362987536, type: 3}
       propertyPath: angularSpeed
-      value: 1.6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 125728439245664457, guid: c80fe13599bc765409ce1a0362987536, type: 3}
       propertyPath: rotationSpeed
-      value: 545
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 125728439245664457, guid: c80fe13599bc765409ce1a0362987536, type: 3}
       propertyPath: rotationCenter
@@ -4129,7 +4129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5860994744752898804, guid: 213c7557220484415b0adc0076cbad51, type: 3}
       propertyPath: speed
-      value: 7.4
+      value: 9.4
       objectReference: {fileID: 0}
     - target: {fileID: 5860994744752898805, guid: 213c7557220484415b0adc0076cbad51, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30790,7 +30790,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5860994744752898804, guid: 213c7557220484415b0adc0076cbad51, type: 3}
       propertyPath: speed
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5860994744752898805, guid: 213c7557220484415b0adc0076cbad51, type: 3}
       propertyPath: m_LocalPosition.x
