@@ -29,6 +29,20 @@ public class HealthUIConnector : MonoBehaviour
             
         }
         int currenthp = player1Health;
+        if (currenthp < 75 && currenthp > 50)
+        {
+            healtText.color = Color.yellow;
+        }
+
+        if (currenthp <=50 && currenthp > 25)
+        {
+            healtText.color = Color.red;
+        }
+
+        if (currenthp <= 25)
+        {
+            healtText.color = Color.black;
+        }
         healtText.text = $"Health: " + currenthp + "%";
     }
 }
