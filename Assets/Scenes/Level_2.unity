@@ -26915,6 +26915,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8426887731417856128, guid: 73f4f2eb817df204e8924ce092d104c3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 314.5062
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426887731417856128, guid: 73f4f2eb817df204e8924ce092d104c3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 89.8587
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426887731417856128, guid: 73f4f2eb817df204e8924ce092d104c3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 721
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426887731417856128, guid: 73f4f2eb817df204e8924ce092d104c3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 441.66992
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426887731417856131, guid: 73f4f2eb817df204e8924ce092d104c3, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426887731417856131, guid: 73f4f2eb817df204e8924ce092d104c3, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426887731441936566, guid: 73f4f2eb817df204e8924ce092d104c3, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426887731441936566, guid: 73f4f2eb817df204e8924ce092d104c3, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426887731441936567, guid: 73f4f2eb817df204e8924ce092d104c3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 323.7486
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426887731441936567, guid: 73f4f2eb817df204e8924ce092d104c3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80.5156
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426887731441936567, guid: 73f4f2eb817df204e8924ce092d104c3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -638
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426887731441936567, guid: 73f4f2eb817df204e8924ce092d104c3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 463
+      objectReference: {fileID: 0}
     - target: {fileID: 8426887731853497536, guid: 73f4f2eb817df204e8924ce092d104c3, type: 3}
       propertyPath: m_Name
       value: HPcanvas
