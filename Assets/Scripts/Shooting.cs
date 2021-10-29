@@ -38,6 +38,7 @@ public class Shooting : MonoBehaviour
         if (Input.GetButton(fire))
         {
             shot = true;
+            SoundControlP1.SndMan.PlayShootSound();
         }
     }
 }
