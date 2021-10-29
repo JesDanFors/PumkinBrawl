@@ -6140,6 +6140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4565778377552588041, guid: 638ac1325bfbca846ac3f2542b692ae1, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6370795447781895961, guid: 638ac1325bfbca846ac3f2542b692ae1, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -6183,6 +6187,10 @@ PrefabInstance:
     - target: {fileID: 6370795447781895961, guid: 638ac1325bfbca846ac3f2542b692ae1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064547434277315082, guid: 638ac1325bfbca846ac3f2542b692ae1, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 638ac1325bfbca846ac3f2542b692ae1, type: 3}
@@ -27315,6 +27323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Triangle
       objectReference: {fileID: 0}
+    - target: {fileID: 4565778377552588041, guid: 638ac1325bfbca846ac3f2542b692ae1, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 6370795447781895961, guid: 638ac1325bfbca846ac3f2542b692ae1, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -27358,6 +27370,10 @@ PrefabInstance:
     - target: {fileID: 6370795447781895961, guid: 638ac1325bfbca846ac3f2542b692ae1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064547434277315082, guid: 638ac1325bfbca846ac3f2542b692ae1, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 638ac1325bfbca846ac3f2542b692ae1, type: 3}
