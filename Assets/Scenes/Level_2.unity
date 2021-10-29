@@ -13452,10 +13452,6 @@ PrefabInstance:
       propertyPath: rotationSpeed
       value: 500
       objectReference: {fileID: 0}
-    - target: {fileID: 5563263972143845984, guid: d90aa403c5ece4f6d9ea9aab3a7a9b19, type: 3}
-      propertyPath: clockwiseRotation
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5563263972143845985, guid: d90aa403c5ece4f6d9ea9aab3a7a9b19, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -36501,7 +36497,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 023911f1943984e40af5adbd175db0a3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b32cb05eaa792604baf6081f9bc00035, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
