@@ -1153,7 +1153,8 @@ PrefabInstance:
       propertyPath: winnerScene
       value: WinSceneP1Lvl1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8197928627294410099, guid: a182bd294364a8d43bf5926db4170fe8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a182bd294364a8d43bf5926db4170fe8, type: 3}
 --- !u!4 &304957942 stripped
 Transform:
@@ -2998,7 +2999,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -55.3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6760756758706819822, guid: b4978b19209cccb49b29a449031e1758, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b4978b19209cccb49b29a449031e1758, type: 3}
 --- !u!4 &844323571 stripped
 Transform:
