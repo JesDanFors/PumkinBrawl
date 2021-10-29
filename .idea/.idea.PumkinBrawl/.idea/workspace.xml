@@ -7,8 +7,20 @@
     <list default="true" id="9f837693-f7e2-4a77-8cfc-f172b2283339" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PumkinBrawl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PumkinBrawl/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthUIConnector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthUIConnector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/PlayerVoice/P1 Jump-001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/PlayerVoice/P1 Jump-001.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/PlayerVoice/P1 Jump-002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/PlayerVoice/P1 Jump-002.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/PlayerVoice/P1 Jump-003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/PlayerVoice/P1 Jump-003.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/PlayerVoice/P2 Jump-001.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/PlayerVoice/P2 Jump-001.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/PlayerVoice/P2 Jump-002.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/PlayerVoice/P2 Jump-002.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/PlayerVoice/P2 Jump-003.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/PlayerVoice/P2 Jump-003.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +31,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthUIConnector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Core/Events/EventMachine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/SoundControlP2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Core/Variables/VariableDeclarations.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -30,6 +45,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -51,10 +68,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="31180">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="31180" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -73,6 +90,7 @@
       <workItem from="1635337586271" duration="6860000" />
       <workItem from="1635357950897" duration="3655000" />
       <workItem from="1635404125602" duration="11127000" />
+      <workItem from="1635499422450" duration="3642000" />
     </task>
     <servers />
   </component>
@@ -82,6 +100,17 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
