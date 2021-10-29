@@ -32,7 +32,6 @@ public class PlayerHealth : MonoBehaviour
     {
         if (_health <= 0)
         {
-            Destroy(this);
             SceneManager.LoadScene(winnerScene);
         }
     }
