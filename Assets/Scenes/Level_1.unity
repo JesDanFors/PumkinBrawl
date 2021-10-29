@@ -4367,6 +4367,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 437108265144806832, guid: 94e39911227d1794fbd2c0a7291c9af8, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6792453
+      objectReference: {fileID: 0}
+    - target: {fileID: 437108265144806832, guid: 94e39911227d1794fbd2c0a7291c9af8, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6792453
+      objectReference: {fileID: 0}
+    - target: {fileID: 437108265144806832, guid: 94e39911227d1794fbd2c0a7291c9af8, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6792453
+      objectReference: {fileID: 0}
+    - target: {fileID: 6173977956494999606, guid: 94e39911227d1794fbd2c0a7291c9af8, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6173977956494999606, guid: 94e39911227d1794fbd2c0a7291c9af8, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6173977956494999606, guid: 94e39911227d1794fbd2c0a7291c9af8, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9339623
+      objectReference: {fileID: 0}
     - target: {fileID: 7082655948102498180, guid: 94e39911227d1794fbd2c0a7291c9af8, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4414,6 +4438,18 @@ PrefabInstance:
     - target: {fileID: 7082655948102498180, guid: 94e39911227d1794fbd2c0a7291c9af8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082655948102498181, guid: 94e39911227d1794fbd2c0a7291c9af8, type: 3}
+      propertyPath: m_Color.b
+      value: 0.12046992
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082655948102498181, guid: 94e39911227d1794fbd2c0a7291c9af8, type: 3}
+      propertyPath: m_Color.g
+      value: 0.22369856
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082655948102498181, guid: 94e39911227d1794fbd2c0a7291c9af8, type: 3}
+      propertyPath: m_Color.r
+      value: 0.2264151
       objectReference: {fileID: 0}
     - target: {fileID: 7082655948102498234, guid: 94e39911227d1794fbd2c0a7291c9af8, type: 3}
       propertyPath: m_Name
