@@ -13037,6 +13037,10 @@ PrefabInstance:
       propertyPath: rotationSpeed
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 5563263972143845984, guid: d90aa403c5ece4f6d9ea9aab3a7a9b19, type: 3}
+      propertyPath: clockwiseRotation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5563263972143845985, guid: d90aa403c5ece4f6d9ea9aab3a7a9b19, type: 3}
       propertyPath: m_RootOrder
       value: 25
