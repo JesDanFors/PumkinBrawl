@@ -23,6 +23,7 @@ public class PlayerHealth : MonoBehaviour
             if (other.relativeVelocity.magnitude > 30)
             {
                 _health -= 5;
+                SoundControlP1.SndMan.PlayDamageSounds();
             }
         }
         Death();
