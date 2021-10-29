@@ -18,7 +18,7 @@ public class SoundControlP1 : MonoBehaviour
         audioSrc = GetComponent<AudioSource>();
         jumpSounds = Resources.LoadAll<AudioClip>(jumper);
         damageSounds = Resources.LoadAll<AudioClip>("DamageSoundsP1");
-        shootSound = Resources.Load<AudioClip>("ShootSound");
+        shootSound = Resources.Load<AudioClip>("ShootSoundP1");
     }
 
     public void PlayJumpSounds()

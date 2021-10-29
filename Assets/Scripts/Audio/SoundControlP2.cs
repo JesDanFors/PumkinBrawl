@@ -8,6 +8,8 @@ public class SoundControlP2 : MonoBehaviour
     private AudioSource audioSrc;
     private AudioClip[] jumpSounds;
     private AudioClip[] damageSounds;
+    private AudioClip shootSound;
+    
     private int random;
     public string jumper = "JumpSoundsP1";
 
@@ -17,6 +19,7 @@ public class SoundControlP2 : MonoBehaviour
         audioSrc = GetComponent<AudioSource>();
         jumpSounds = Resources.LoadAll<AudioClip>(jumper);
         damageSounds = Resources.LoadAll<AudioClip>("DamageSoundsP2");
+        shootSound = Resources.Load<AudioClip>("ShootSoundP2");
     }
 
     public void PlayJumpSoundsP2()
@@ -24,9 +27,11 @@ public class SoundControlP2 : MonoBehaviour
         random = Random.Range(0, 3);
         audioSrc.PlayOneShot(jumpSounds[random]);
     }
-    public void PlayDamageSoundsP2()
+
+    public void PlayShootSound()
     {
-        random = Random.Range(0, 3);
-        audioSrc.PlayOneShot(damageSounds[random]);
+        audioSrc.clip = shootSound;
+        audioSrc.loop = true;
+        audioSrc.Play();
     }
 }

@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shooting : MonoBehaviour
+public class ShootingP2 : MonoBehaviour
 {
     public GameObject projectile;
     public float launchVelocity = 1000f;
-    public string fire = "Fire1P1";
+    public string fire = "Fire1P2";
     private SpriteRenderer grx;
     public float shotsPerSecond = 5.0f;
     private bool shot = false;
