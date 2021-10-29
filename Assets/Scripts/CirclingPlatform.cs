@@ -11,8 +11,11 @@ public class CirclingPlatform : MonoBehaviour
     [SerializeField]
     float rotationRadius = 2f, angularSpeed = 2f;
 
-    float posX, posY, angle = 0f; 
-   
+    float posX, posY, angle = 0f;
+
+    private float rotZ;
+    public float rotationSpeed;
+
     void Update()
     {
         posX = rotationCenter.position.x + Mathf.Cos(angle) * rotationRadius;
@@ -24,6 +27,9 @@ public class CirclingPlatform : MonoBehaviour
         {
             angle = 0;
         }
+
+        rotZ += -Time.deltaTime * rotationSpeed;
+        transform.rotation = Quaternion.Euler(0, 0, rotZ);
 
     }
 }
