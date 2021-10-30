@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shooting : MonoBehaviour
+public class ShootingP1 : MonoBehaviour
 {
     public GameObject projectile;
     public float launchVelocity = 1000f;
@@ -11,6 +11,7 @@ public class Shooting : MonoBehaviour
     private SpriteRenderer grx;
     public float shotsPerSecond = 5.0f;
     private bool shot = false;
+    public AudioSource audioSrc;
     
 
     private void Start()
@@ -39,6 +40,10 @@ public class Shooting : MonoBehaviour
         {
             shot = true;
             SoundControlP1.SndMan.PlayShootSound();
+        }
+        else
+        {
+            audioSrc.clip = null; 
         }
     }
 }
